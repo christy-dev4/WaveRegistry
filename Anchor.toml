@@ -1,0 +1,14 @@
+[toolchain]
+anchor_version = "0.30.1"
+solana_version = "2.2"
+
+[programs.localnet]
+wave_registry = "DRiPs11111111111111111111111111111111111111"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test --all-features"
+integration = "anchor test"

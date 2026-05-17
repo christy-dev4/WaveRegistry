@@ -1,0 +1,11 @@
+/target
+**/*.rs.bk
+node_modules/
+dist/
+.env
+*.key
+*.json
+!package.json
+!tsconfig.json
+.solana/
+test-ledger/
